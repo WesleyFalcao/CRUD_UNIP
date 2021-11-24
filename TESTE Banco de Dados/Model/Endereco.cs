@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace TESTE_Banco_de_Dados.Model
 {
-    class Endereco
+    public class Endereco
     {
-        
-        protected int id_Endereco;
+        public int id_Endereco;
 
-        protected string logradouro;
+        public string logradouro;
 
-        protected int numero;
+        public int numero;
 
-        protected string bairro;
+        public string bairro;
 
-        protected string cidade;
+        public string cidade;
 
-        protected string estado;
+        public string estado;
     }
 }

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace TESTE_Banco_de_Dados.Model
 {
-    class Telefone
+    public class Telefone
     {
         protected int id_Telefone;
 
-        protected int numero_Telefone;
+        public int numero_Telefone;
 
-        protected int ddd;
+        public int ddd;
 
-        protected Tipo_Telefone tipo;
+        public Tipo_Telefone tipo;
     }
 }

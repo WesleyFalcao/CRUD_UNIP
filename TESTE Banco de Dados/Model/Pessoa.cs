@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace TESTE_Banco_de_Dados.Model
 {
-    class Pessoa
+    public class Pessoa
     {
-        protected int id_Pessoa;
+        public int id_Pessoa;
 
-        protected string nome;
+        public string nome;
 
-        protected long CPF;
+        public long CPF;
 
-        protected Endereco endereco;
+        public string email;
 
-        protected List<Telefone> telefone;
+        public Endereco endereco;
+
+        public List<Telefone> telefone;
     }
 }

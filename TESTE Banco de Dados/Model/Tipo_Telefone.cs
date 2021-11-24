@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TESTE_Banco_de_Dados.Model
 {
-    class Tipo_Telefone
+    public class Tipo_Telefone
     {
         protected int Id;
 
-        protected string tipo;
+        public string tipo;
     }
 }

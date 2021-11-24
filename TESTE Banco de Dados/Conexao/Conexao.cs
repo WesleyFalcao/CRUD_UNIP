@@ -13,7 +13,7 @@ namespace TESTE_Banco_de_Dados
 
         public Conexao() 
         {
-            con.ConnectionString = @"Data Source=DESKTOP-C4IUO1V\SQLNEWEXPRESS;Initial Catalog=Teste;Integrated Security=True";
+            con.ConnectionString = "server=localhost;uid=root;pwd=1234;database=pimviii";
         }
 
         public SqlConnection conectar()

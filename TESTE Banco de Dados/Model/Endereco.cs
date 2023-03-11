@@ -8,9 +8,9 @@ namespace TESTE_Banco_de_Dados.Model
 {
     public class Endereco
     {
-        public int id_Endereco;
-
         public string logradouro;
+
+        public int id_Endereco;
 
         public int numero;
 

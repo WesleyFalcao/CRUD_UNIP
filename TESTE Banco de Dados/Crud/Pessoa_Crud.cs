@@ -59,7 +59,6 @@ namespace TESTE_Banco_de_Dados.Crud
                 cmd.Connection = conexao.conectar();
 
                 cmd.ExecuteNonQuery();
-
                 conexao.desconectar();
 
                 retorno = true;
